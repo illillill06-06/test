@@ -6,29 +6,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-  /* 어디서 열어도 배경 흰색/
+  /* 어디서 열어도 배경 흰색, 글씨 검정 고정 */
   body, html, * {
     background-color: #ffffff !important;
+    color: #000000 !important;
   }
 </style>
 
+<style>
+  .hot {
+    color: #c92a2a !important;
+    font-weight: bold;
+  }
+</style>
 
 <style>
   body {
-    color: #000000;
     font-family: sans-serif;
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
     background-color: #ffffff;  /* 배경 흰색 고정 */
+    color: #000000;             /* 글씨 검정 고정 */
   }
-
-  /* 중요한 시그니처 – 딥 체리 레드 */
-  .hot {
-    color: #c92a2a !important;   /* 1순위 컬러 */
-    font-weight: bold;
-  }
-</style>
 
   /* 컨테이너를 화면 크기에 맞게 조정 */
   .container {
@@ -266,7 +266,7 @@
 <li>888 겟더파티</li>
 <li>911 트월킹</li>
 <li>922 캐리유</li>
-<li class="hot">992 피카소, P.casso</li>
+<li>992 피카소, P.casso</li>
 <li>999 바비걸</li>
 <li>1000 VIP</li>
 <li>1001 텐프로, 10PRO</li>
@@ -482,6 +482,21 @@
       }
     });
   });
+</script>
+
+<script>
+const hotNumbers = [
+992,1007,1017,1021,1022,1028,1034,1037,1045,1051,
+1052,1053,1056,1072,1075,1077,1078,1082,1086,1099,
+1221,1333,1425,2045,2052,2222,2172,2333,2411,2825
+];
+
+document.querySelectorAll("li").forEach(li => {
+  const num = parseInt(li.innerText);
+  if (hotNumbers.includes(num)) {
+    li.classList.add("hot");
+  }
+});
 </script>
 
 </body>
