@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>label</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+  /* 어디서 열어도 배경 흰색, 글씨 검정 고정 */
+  body, html, * {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+.hot {
+  color: #d63333;
+  font-weight: bold;
+  text-shadow: 0 0 1px rgba(214,51,51,0.3);  /* 살짝 발광 느낌 */
+}
+  }
+</style>
+
+
+<style>
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;  /* 배경 흰색 고정 */
+    color: #000000;             /* 글씨 검정 고정 */
+  }
+
+  /* 컨테이너를 화면 크기에 맞게 조정 */
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  /* 제목과 검색창 가운데 정렬 */
+  h1, #search {
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+
+  #search {
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #ffffff;  /* 검색창 흰색 */
+    color: #000000;             /* 검색어 검정 */
+    border: 1px solid #ccc;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding: 6px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    background-color: #ffffff;  /* li 배경 흰색 */
+    color: #000000;             /* li 글씨 검정 */
+  }
+
+  /* 반응형: 작은 화면에서는 폰트 조금 키우기 */
+  @media (max-width: 400px) {
+    #search {
+      font-size: 14px;
+      padding: 8px;
+    }
+    li {
+      font-size: 14px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>EWOL LIST</h1>
+<input id="search" placeholder="검색어 입력">
+
+<div id="list-container">
+<ul id="list">
+
+<!-- ===== 전체 목록 자동 생성 ===== -->
+<li>100 프리댄스</li>
+<li>101 핫해</li>
+<li>102 코스믹</li>
+<li>103 삐끼삐끼</li>
+<li>104 lf You Love Me</li>
+<li>105 왠지</li>
+<li>106 솜사탕</li>
+<li>107 색소폰매직</li>
+<li>108 2학년</li>
+<li>109 베이프</li>
+<li>110 인더클럽</li>
+<li>111 A</li>
+<li>112 교통정리</li>
+<li>114 호시탐탐</li>
+<li>115 레디올낫</li>
+<li>116 우치다</li>
+<li>117 이머전시</li>
+<li>118 수파두파</li>
+<li>119 라피스</li>
+<li>120 도레미파솔</li>
+<li>121 바나나차차</li>
+<li>122 던던댄스</li>
+<li>123 폼미쳤다</li>
+<li>124 휘휘</li>
+<li>125 첫눈</li>
+<li>126 하입보이</li>
+<li>127 벌룬인러브</li>
+<li>128 오버드라이브</li>
+<li>129 버터플라이</li>
+<li>130 제로투</li>
+<li>131 사랑받을준비완료</li>
+<li>132 새끈빠끈</li>
+<li>134 테티베어</li>
+<li>135 외모체크</li>
+<li>138 팬서비스</li>
+<li>139 이게사랑이지</li>
+<li>140 섹시푸드</li>
+<li>141 캥거루</li>
+<li>142 아이러브유</li>
+<li>143 애프터라이크</li>
+<li>144 카리나닮았대</li>
+<li>145 Like You</li>
+<li>146 빛을따라서</li>
+<li>147 롤러코스터</li>
+<li>148 핑크레이디</li>
+<li>149 모시모시</li>
+<li>151 버블</li>
+<li>152 꽁냥이</li>
+<li>153 푸키</li>
+<li>155 버터컵</li>
+<li>156 나랑사귈래</li>
+<li>158 우유</li>
+<li>159 자기야화풀어</li>
+<li>160 바니바니</li>
+<li>161 홀업</li>
+<li>162 핫, Hot</li>
+<li>168 퍼킹뱅어</li>
+<li>170 포켓몬댄스</li>
+<li>171 키딩</li>
+<li>172 칭칭언니귀여워</li>
+<li>177 에티튜드, ATTITUDE</li>
+<li>178 첫만남</li>
+<li>179 사쿠란보</li>
+<li>180 핸즈업</li>
+<li>181 엘에스디, LSD</li>
+<li>182 왓더뻑, WTF</li>
+<li>184 컹투미</li>
+<li>185 나니가스키</li>
+<li>187 킹받쥬</li>
+<li>188 스윙</li>
+<li>190 공주들아</li>
+<li>191 알려줄게</li>
+<li>192 깁미모어</li>
+<li>195 포켓로켓</li>
+<li>196 야메떼</li>
+<li>198 LOVE</li>
+<li>199 뛰어</li>
+<li>200 썸머타임</li>
+<li>201 암흑챌린지</li>
+<li>202 해비머신건</li>
+<li>203 호영레이블</li>
+<li>204 도어</li>
+<li>205 이디엠, EDM</li>
+<li>206 묵찌빠</li>
+<li>207 블루 발렌타인, Blue Valentine</li>
+<li>210 아헤가오</li>
+<li>212 간바레</li>
+<li>216 미국가있어</li>
+<li>217 킥드럼베이스</li>
+<li>218 앙카</li>
+<li>219 센세</li>
+<li>220 스타개이저</li>
+<li>221 my oh my</li>
+<li>222 아파트, APT</li>
+<li>223 고민중독</li>
+<li>227 종소리</li>
+<li>228 푱푱</li>
+<li>235 내 이름 맑음</li>
+<li>240 I Wonder</li>
+<li>242 너와의 모든 지금</li>
+<li>243 이라이라</li>
+<li>244 그래비티</li>
+<li>245 라라리라라</li>
+<li>246 바우치</li>
+<li>250 밤을달리다</li>
+<li>252 빌려온고양이</li>
+<li>255 소다팝</li>
+<li>256 모또모또</li>
+<li>267 여름이었다</li>
+<li>269 야매뗴</li>
+<li>272 러브시크</li>
+<li>277 컴트루</li>
+<li>282 샤카부</li>
+<li>284 팅커벨</li>
+<li>286 야레야레</li>
+<li>287 붐붐베이스</li>
+<li>288 오빠바이러스</li>
+<li>295 이꾸요잇</li>
+<li>298 유어바디</li>
+<li>299 목련개</li>
+<li>300 살아있네</li>
+<li>301 라스트나잇</li>
+<li>302 모찌송</li>
+<li>303 만찬가</li>
+<li>304 헨타이</li>
+<li>305 여우</li>
+<li>310 귀여워서미안해</li>
+<li>311 캐쉬</li>
+<li>312 키세스</li>
+<li>322 타이미</li>
+<li>323 다이스키</li>
+<li>331 업, UP</li>
+<li>332 크루엘썸머</li>
+<li>333 워터</li>
+<li>343 비롱윗미</li>
+<li>350 end of the world</li>
+<li>363 타이미다운</li>
+<li>368 디스코테카</li>
+<li>380 마녀배달부키키</li>
+<li>382 바이브레이크</li>
+<li>388 체인리듬</li>
+<li>400 터미널</li>
+<li>402 헌더러</li>
+<li>404 호미들</li>
+<li>408 렛츠고</li>
+<li>424 나루토</li>
+<li>444 사기캐</li>
+<li>445 하트개</li>
+<li>448 와이, Y</li>
+<li>455 컨트롤</li>
+<li>486 마티니</li>
+<li>488 S. 탕후루</li>
+<li>502 테크노</li>
+<li>505 S. 암흑챌린지</li>
+<li>525 계엄령</li>
+<li>557 촉촉착착</li>
+<li>566 S. 우유</li>
+<li>600 S. 핫해</li>
+<li>612 이노센스</li>
+<li>622 월셈블</li>
+<li>623 S. 고민중독</li>
+<li>640 S. 아이러브유</li>
+<li>646 더나이츠</li>
+<li>654 나이트댄서</li>
+<li>677 S. 컴트루</li>
+<li>688 S. 오빠바이러스</li>
+<li>700 세븐</li>
+<li>704 S. 무아</li>
+<li>746 S. 러브쉐이크</li>
+<li>764 S. 어마어마해</li>
+<li>797 원라이프</li>
+<li>800 S. 팬서비스</li>
+<li>833 에즈업, ASS UP</li>
+<li>887 하이스트</li>
+<li>888 겟더파티</li>
+<li>911 트월킹</li>
+<li>922 캐리유</li>
+<li class= "hot">992 피카소, P.casso</li>
+<li>999 바비걸</li>
+<li>1000 VIP</li>
+<li>1001 텐프로, 10PRO</li>
+<li>1002 cool쿨쿨</li>
+<li>1003 자꾸박는룡이</li>
+<li>1004 지나가던똥개</li>
+<li>1005 백호수호신</li>
+<li>1006 파이널퀸</li>
+<li>1007 꽃욜로ゑ</li>
+<li>1008 나도8</li>
+<li>1009 철구</li>
+<li>1010 에즈럽, AS LOVE</li>
+<li>1011 웬아이겟올드</li>
+<li>1012 야부리맨</li>
+<li>1013 [ING]바쁨</li>
+<li>1015 슈퍼그랑죠</li>
+<li>1016 파티마홀딩스</li>
+<li>1017 도브네</li>
+<li>1018 상하이불주먹</li>
+<li>1019 흑우나그네</li>
+<li>1020 무야이겅</li>
+<li>1021 [디엘]</li>
+<li>1022 용이</li>
+<li>1023 이즈</li>
+<li>1024 도도로도</li>
+<li>1025 찝찌몬</li>
+<li>1026 [ING]우영</li>
+<li>1028 날위한이별</li>
+<li>1030 다키시메루마데</li>
+<li>1033 #토토충#</li>
+<li>1034 월둘셋야</li>
+<li>1035 썸머지, Summer. G</li>
+<li>1036 양치기물소</li>
+<li>1037 라스트, Last2</li>
+<li>1040 인생은쮀스</li>
+<li>1041 나비, NABI</li>
+<li>1042 라네트</li>
+<li>1043 나캉이</li>
+<li>1044 존나사기캐</li>
+<li>1045 젤로#</li>
+<li>1046 글로뤼맨유</li>
+<li>1047 AGN샤프</li>
+<li>1048 카블라, cavlar</li>
+<li>1049 청아만의유턴</li>
+<li>1050 Ready501</li>
+<li>1051 월림자</li>
+<li>1052 시바이누coin</li>
+<li>1053 월은주</li>
+<li>1054 앙며든로켓</li>
+<li>1055 깅더듬</li>
+<li>1056 에코, Ekko</li>
+<li>1058 오하</li>
+<li>1060 스폐셜퀸</li>
+<li>1061 함지아아줌마</li>
+<li>1062 엠비셔스, mbtious</li>
+<li>1065 오른팔</li>
+<li>1066 신사동푸우</li>
+<li>1067 땁3</li>
+<li>1068 출항</li>
+<li>1069 주암지</li>
+<li>1071 멍지인</li>
+<li>1072 피트</li>
+<li>1073 한남동이순신</li>
+<li>1074 주박이다아</li>
+<li>1075 월플단청과</li>
+<li>1076 콘치즈</li>
+<li>1077 쌍별</li>
+<li>1078 피카소, P.casso</li>
+<li>1079 칠둘기07</li>
+<li>1080 #놀자</li>
+<li>1081 태민, taemin</li>
+<li>1082 쥬베이</li>
+<li>1083 페라리v12</li>
+<li>1084 제빵사</li>
+<li>1085 a9886</li>
+<li>1086 팬해도될까요</li>
+<li>1087 반조흐</li>
+<li>1088 코인러형규</li>
+<li>1089 99</li>
+<li>1091 다니만의스윗</li>
+<li>1092 개굴개</li>
+<li>1094 구르는다니</li>
+<li>1095 귀멸을칼날</li>
+<li>1097 초월</li>
+<li>1098 웃어넘기기엔 너무 사랑했던 너라</li>
+<li>1099 신간신</li>
+<li>1100 펙트, pact</li>
+<li>1101 LACRIMOSA</li>
+<li>1102 라잇업, Iight it up</li>
+<li>1107 1995</li>
+<li>1111 박아랏</li>
+<li>1112 야부리맨</li>
+<li>1115 행인15</li>
+<li>1116 삔스</li>
+<li>1118 클럽</li>
+<li>1122 중복확인</li>
+<li>1125 Daffyduck</li>
+<li>1158 오베R</li>
+<li>1167 올로르</li>
+<li>1172 다트리버</li>
+<li>1141 최코님</li>
+<li>1204 러빙웨이</li>
+<li>1219 스왑, Swab</li>
+<li>1221 포스후니</li>
+<li>1222 재킴, Jaekim</li>
+<li>1224 김떡락</li>
+<li>1227 디끄디끄</li>
+<li>1234 맛집ㅋ</li>
+<li>1242 다니율응</li>
+<li>1248 내가 S면 넌 나의 N이 되어줘</li>
+<li>1250 v12멜로디</li>
+<li>1251 웰컴레이블</li>
+<li>1252 김인호, K.I.H</li>
+<li>1257 최윤입니다</li>
+<li>1262 하이머딩거</li>
+<li>1267 [Uji]구르르</li>
+<li>1272 까스댄스댄스</li>
+<li>1277 만개화랑</li>
+<li>1319 극락왕생</li>
+<li>1333 주댕이이이</li>
+<li>1348 그녀가웃잖아</li>
+<li>1402 ☆Hwany☆</li>
+<li>1420 로즈마리€</li>
+<li>1425 많사월</li>
+<li>1428 스탠스</li>
+<li>1445 존나섹시캐</li>
+<li>1467 깨뭉</li>
+<li>1472 다니감지기</li>
+<li>1500 청담에테르노</li>
+<li>1524 BIONANO</li>
+<li>1542 도라이</li>
+<li>1555 라네트</li>
+<li>1648 플라워, Flower</li>
+<li>1669 앞니69</li>
+<li>1684 S. 퍼킹뱅어</li>
+<li>1696 골타69</li>
+<li>1697 피카츄69</li>
+<li>1777 다니기긔</li>
+<li>1825 S. 김인호, S. K.I.H</li>
+<li>1878 라이즈</li>
+<li>1892 짜이</li>
+<li>2000 VVIP</li>
+<li>2002 S. 텐프로, S. 10PRO</li>
+<li>2003 S. 자꾸박는룡이</li>
+<li>2006 S. 함지아아줌마</li>
+<li>2010 백호수호신</li>
+<li>2015 S. 슈퍼그랑죠</li>
+<li>2016 S. 파티마홀딩스</li>
+<li>2019 S. 흑우나그네</li>
+<li>2024 S. 도도로도</li>
+<li>2030 S. 한남동이순신</li>
+<li>2042 S.나비, S. NABI</li>
+<li>2045 S. 젤로#</li>
+<li>2047 S. 다니감지기</li>
+<li>2048 S. 카블라, S. cavlar</li>
+<li>2052 S. 시바이누coin</li>
+<li>2054 S. 잉며든로켓</li>
+<li>2066 구마유시</li>
+<li>2067 S. 땁3</li>
+<li>2069 도파민69</li>
+<li>2081 S. 페라리V12</li>
+<li>2087 S. 반조흐</li>
+<li>2094 S. 구르는다니</li>
+<li>2099 S. 99</li>
+<li>2111 S. 박아랏</li>
+<li>2112 S. 야부리맨</li>
+<li>2125 S. V12멜로디</li>
+<li>2222 2월2일2시2분</li>
+<li>2242 S. 다니율응</li>
+<li>2172 S. 도브네</li>
+<li>2272 S. 까스댄스댄스</li>
+<li>2333 S. 주댕이이이</li>
+<li>2345 S. 맛집</li>
+<li>2411 #오너, #oner</li>
+<li>2486 S. 이다인</li>
+<li>2542 이노레이블</li>
+<li>2666 #페이커, #faker</li>
+<li>2669 S. 앞니69</li>
+<li>2696 S. 골타69</li>
+<li>2697 S. 피카츄69</li>
+<li>2777 S. 티미</li>
+<li>2948 S. V12멜로디</li>
+<li>2951 S. Ready501</li>
+<li>2998 S. 최윤입니다</li>
+<li>2999 S. 라네트</li>
+<li>3000 MVP</li>
+<li>3024 S. 다니율응</li>
+<li>3069 69어셈블</li>
+<li>3112 S. 야부리맨</li>
+<li>10272 king is 까신</li>
+<li>11112 킹부리맨</li>
+<!-- ======================================================= -->
+
+</ul>
+<script>
+  // 검색 기능
+  const searchInput = document.getElementById("search");
+  const items = document.querySelectorAll("#list li");
+
+  searchInput.addEventListener("keyup", function() {
+    const query = this.value.toLowerCase();
+    items.forEach(li => {
+      li.style.display = li.innerText.toLowerCase().includes(query) ? "" : "none";
+    });
+  });
+
+  // 영상 재생 기능
+  items.forEach(li => {
+    li.addEventListener("click", () => {
+      const videoUrl = li.getAttribute("data-video");
+      if (videoUrl) {
+        window.open(videoUrl, "_blank");
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
