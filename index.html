@@ -6,28 +6,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-  /* 어디서 열어도 배경 흰색, 글씨 검정 고정 */
+  /* 배경은 무조건 흰색 고정 */
   body, html, * {
     background-color: #ffffff !important;
-    color: #000000 !important;
-.hot {
-  color: #d63333;
-  font-weight: bold;
-  text-shadow: 0 0 1px rgba(214,51,51,0.3);  /* 살짝 발광 느낌 */
-}
   }
-</style>
 
-
-<style>
+  /* 기본 글씨는 검정 */
   body {
+    color: #000000;
     font-family: sans-serif;
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #ffffff;  /* 배경 흰색 고정 */
-    color: #000000;             /* 글씨 검정 고정 */
   }
+
+  /* 중요한 시그니처 – 딥 체리 레드 */
+  .hot {
+    color: #c92a2a !important;   /* 1순위 컬러 */
+    font-weight: bold;
+  }
+</style>
+
 
   /* 컨테이너를 화면 크기에 맞게 조정 */
   .container {
