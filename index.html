@@ -5,6 +5,7 @@
 <title>label</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
 <style>
   /* 어디서 열어도 배경 흰색, 글씨 검정 고정 */
   body, html, * {
@@ -14,20 +15,11 @@
 </style>
 
 <style>
-  .hot {
-    color: #c92a2a !important;
-    font-weight: bold;
-  }
-</style>
-
-<style>
   body {
     font-family: sans-serif;
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #ffffff;  /* 배경 흰색 고정 */
-    color: #000000;             /* 글씨 검정 고정 */
   }
 
   /* 컨테이너를 화면 크기에 맞게 조정 */
@@ -49,9 +41,6 @@
     margin: 10px 0 20px 0;
     font-size: 16px;
     box-sizing: border-box;
-    background-color: #ffffff;  /* 검색창 흰색 */
-    color: #000000;             /* 검색어 검정 */
-    border: 1px solid #ccc;
   }
 
   ul {
@@ -64,8 +53,6 @@
     padding: 6px;
     border-bottom: 1px solid #ddd;
     cursor: pointer;
-    background-color: #ffffff;  /* li 배경 흰색 */
-    color: #000000;             /* li 글씨 검정 */
   }
 
   /* 반응형: 작은 화면에서는 폰트 조금 키우기 */
@@ -79,388 +66,399 @@
     }
   }
 </style>
+
+<!-- ★ 추가된 부분: 빨간색 스타일 -->
+<style>
+  .hot {
+    color: #c92a2a !important;
+    font-weight: bold;
+  }
+</style>
+
 </head>
+
 <body>
 
-<h1>EWOL LIST</h1>
+<h1>LABEL LIST</h1>
+
 <input id="search" placeholder="검색어 입력">
 
-<div id="list-container">
 <ul id="list">
 
 <!-- ===== 전체 목록 자동 생성 ===== -->
-<li>100 프리댄스</li>
-<li>101 핫해</li>
-<li>102 코스믹</li>
-<li>103 삐끼삐끼</li>
-<li>104 lf You Love Me</li>
-<li>105 왠지</li>
-<li>106 솜사탕</li>
-<li>107 색소폰매직</li>
-<li>108 2학년</li>
-<li>109 베이프</li>
-<li>110 인더클럽</li>
-<li>111 A</li>
-<li>112 교통정리</li>
-<li>114 호시탐탐</li>
-<li>115 레디올낫</li>
-<li>116 우치다</li>
-<li>117 이머전시</li>
-<li>118 수파두파</li>
-<li>119 라피스</li>
-<li>120 도레미파솔</li>
-<li>121 바나나차차</li>
-<li>122 던던댄스</li>
-<li>123 폼미쳤다</li>
-<li>124 휘휘</li>
-<li>125 첫눈</li>
-<li>126 하입보이</li>
-<li>127 벌룬인러브</li>
-<li>128 오버드라이브</li>
-<li>129 버터플라이</li>
-<li>130 제로투</li>
-<li>131 사랑받을준비완료</li>
-<li>132 새끈빠끈</li>
-<li>134 테티베어</li>
-<li>135 외모체크</li>
-<li>138 팬서비스</li>
-<li>139 이게사랑이지</li>
-<li>140 섹시푸드</li>
-<li>141 캥거루</li>
-<li>142 아이러브유</li>
-<li>143 애프터라이크</li>
-<li>144 카리나닮았대</li>
-<li>145 Like You</li>
-<li>146 빛을따라서</li>
-<li>147 롤러코스터</li>
-<li>148 핑크레이디</li>
-<li>149 모시모시</li>
-<li>151 버블</li>
-<li>152 꽁냥이</li>
-<li>153 푸키</li>
-<li>155 버터컵</li>
-<li>156 나랑사귈래</li>
-<li>158 우유</li>
-<li>159 자기야화풀어</li>
-<li>160 바니바니</li>
-<li>161 홀업</li>
-<li>162 핫, Hot</li>
-<li>168 퍼킹뱅어</li>
-<li>170 포켓몬댄스</li>
-<li>171 키딩</li>
-<li>172 칭칭언니귀여워</li>
-<li>177 에티튜드, ATTITUDE</li>
-<li>178 첫만남</li>
-<li>179 사쿠란보</li>
-<li>180 핸즈업</li>
-<li>181 엘에스디, LSD</li>
-<li>182 왓더뻑, WTF</li>
-<li>184 컹투미</li>
-<li>185 나니가스키</li>
-<li>187 킹받쥬</li>
-<li>188 스윙</li>
-<li>190 공주들아</li>
-<li>191 알려줄게</li>
-<li>192 깁미모어</li>
-<li>195 포켓로켓</li>
-<li>196 야메떼</li>
-<li>198 LOVE</li>
-<li>199 뛰어</li>
-<li>200 썸머타임</li>
-<li>201 암흑챌린지</li>
-<li>202 해비머신건</li>
-<li>203 호영레이블</li>
-<li>204 도어</li>
-<li>205 이디엠, EDM</li>
-<li>206 묵찌빠</li>
-<li>207 블루 발렌타인, Blue Valentine</li>
-<li>210 아헤가오</li>
-<li>212 간바레</li>
-<li>216 미국가있어</li>
-<li>217 킥드럼베이스</li>
-<li>218 앙카</li>
-<li>219 센세</li>
-<li>220 스타개이저</li>
-<li>221 my oh my</li>
-<li>222 아파트, APT</li>
-<li>223 고민중독</li>
-<li>227 종소리</li>
-<li>228 푱푱</li>
-<li>235 내 이름 맑음</li>
-<li>240 I Wonder</li>
-<li>242 너와의 모든 지금</li>
-<li>243 이라이라</li>
-<li>244 그래비티</li>
-<li>245 라라리라라</li>
-<li>246 바우치</li>
-<li>250 밤을달리다</li>
-<li>252 빌려온고양이</li>
-<li>255 소다팝</li>
-<li>256 모또모또</li>
-<li>267 여름이었다</li>
-<li>269 야매뗴</li>
-<li>272 러브시크</li>
-<li>277 컴트루</li>
-<li>282 샤카부</li>
-<li>284 팅커벨</li>
-<li>286 야레야레</li>
-<li>287 붐붐베이스</li>
-<li>288 오빠바이러스</li>
-<li>295 이꾸요잇</li>
-<li>298 유어바디</li>
-<li>299 목련개</li>
-<li>300 살아있네</li>
-<li>301 라스트나잇</li>
-<li>302 모찌송</li>
-<li>303 만찬가</li>
-<li>304 헨타이</li>
-<li>305 여우</li>
-<li>310 귀여워서미안해</li>
-<li>311 캐쉬</li>
-<li>312 키세스</li>
-<li>322 타이미</li>
-<li>323 다이스키</li>
-<li>331 업, UP</li>
-<li>332 크루엘썸머</li>
-<li>333 워터</li>
-<li>343 비롱윗미</li>
-<li>350 end of the world</li>
-<li>363 타이미다운</li>
-<li>368 디스코테카</li>
-<li>380 마녀배달부키키</li>
-<li>382 바이브레이크</li>
-<li>388 체인리듬</li>
-<li>400 터미널</li>
-<li>402 헌더러</li>
-<li>404 호미들</li>
-<li>408 렛츠고</li>
-<li>424 나루토</li>
-<li>444 사기캐</li>
-<li>445 하트개</li>
-<li>448 와이, Y</li>
-<li>455 컨트롤</li>
-<li>486 마티니</li>
-<li>488 S. 탕후루</li>
-<li>502 테크노</li>
-<li>505 S. 암흑챌린지</li>
-<li>525 계엄령</li>
-<li>557 촉촉착착</li>
-<li>566 S. 우유</li>
-<li>600 S. 핫해</li>
-<li>612 이노센스</li>
-<li>622 월셈블</li>
-<li>623 S. 고민중독</li>
-<li>640 S. 아이러브유</li>
-<li>646 더나이츠</li>
-<li>654 나이트댄서</li>
-<li>677 S. 컴트루</li>
-<li>688 S. 오빠바이러스</li>
-<li>700 세븐</li>
-<li>704 S. 무아</li>
-<li>746 S. 러브쉐이크</li>
-<li>764 S. 어마어마해</li>
-<li>797 원라이프</li>
-<li>800 S. 팬서비스</li>
-<li>833 에즈업, ASS UP</li>
-<li>887 하이스트</li>
-<li>888 겟더파티</li>
-<li>911 트월킹</li>
-<li>922 캐리유</li>
-<li>992 피카소, P.casso</li>
-<li>999 바비걸</li>
-<li>1000 VIP</li>
-<li>1001 텐프로, 10PRO</li>
-<li>1002 cool쿨쿨</li>
-<li>1003 자꾸박는룡이</li>
-<li>1004 지나가던똥개</li>
-<li>1005 백호수호신</li>
-<li>1006 파이널퀸</li>
-<li>1007 꽃욜로ゑ</li>
-<li>1008 나도8</li>
-<li>1009 철구</li>
-<li>1010 에즈럽, AS LOVE</li>
-<li>1011 웬아이겟올드</li>
-<li>1012 야부리맨</li>
-<li>1013 [ING]바쁨</li>
-<li>1015 슈퍼그랑죠</li>
-<li>1016 파티마홀딩스</li>
-<li>1017 도브네</li>
-<li>1018 상하이불주먹</li>
-<li>1019 흑우나그네</li>
-<li>1020 무야이겅</li>
-<li>1021 [디엘]</li>
-<li>1022 용이</li>
-<li>1023 이즈</li>
-<li>1024 도도로도</li>
-<li>1025 찝찌몬</li>
-<li>1026 [ING]우영</li>
-<li>1028 날위한이별</li>
-<li>1030 다키시메루마데</li>
-<li>1033 #토토충#</li>
-<li>1034 월둘셋야</li>
-<li>1035 썸머지, Summer. G</li>
-<li>1036 양치기물소</li>
-<li>1037 라스트, Last2</li>
-<li>1040 인생은쮀스</li>
-<li>1041 나비, NABI</li>
-<li>1042 라네트</li>
-<li>1043 나캉이</li>
-<li>1044 존나사기캐</li>
-<li>1045 젤로#</li>
-<li>1046 글로뤼맨유</li>
-<li>1047 AGN샤프</li>
-<li>1048 카블라, cavlar</li>
-<li>1049 청아만의유턴</li>
-<li>1050 Ready501</li>
-<li>1051 월림자</li>
-<li>1052 시바이누coin</li>
-<li>1053 월은주</li>
-<li>1054 앙며든로켓</li>
-<li>1055 깅더듬</li>
-<li>1056 에코, Ekko</li>
-<li>1058 오하</li>
-<li>1060 스폐셜퀸</li>
-<li>1061 함지아아줌마</li>
-<li>1062 엠비셔스, mbtious</li>
-<li>1065 오른팔</li>
-<li>1066 신사동푸우</li>
-<li>1067 땁3</li>
-<li>1068 출항</li>
-<li>1069 주암지</li>
-<li>1071 멍지인</li>
-<li>1072 피트</li>
-<li>1073 한남동이순신</li>
-<li>1074 주박이다아</li>
-<li>1075 월플단청과</li>
-<li>1076 콘치즈</li>
-<li>1077 쌍별</li>
-<li>1078 피카소, P.casso</li>
-<li>1079 칠둘기07</li>
-<li>1080 #놀자</li>
-<li>1081 태민, taemin</li>
-<li>1082 쥬베이</li>
-<li>1083 페라리v12</li>
-<li>1084 제빵사</li>
-<li>1085 a9886</li>
-<li>1086 팬해도될까요</li>
-<li>1087 반조흐</li>
-<li>1088 코인러형규</li>
-<li>1089 99</li>
-<li>1091 다니만의스윗</li>
-<li>1092 개굴개</li>
-<li>1094 구르는다니</li>
-<li>1095 귀멸을칼날</li>
-<li>1097 초월</li>
-<li>1098 웃어넘기기엔 너무 사랑했던 너라</li>
-<li>1099 신간신</li>
-<li>1100 펙트, pact</li>
-<li>1101 LACRIMOSA</li>
-<li>1102 라잇업, Iight it up</li>
-<li>1107 1995</li>
-<li>1111 박아랏</li>
-<li>1112 야부리맨</li>
-<li>1115 행인15</li>
-<li>1116 삔스</li>
-<li>1118 클럽</li>
-<li>1122 중복확인</li>
-<li>1125 Daffyduck</li>
-<li>1158 오베R</li>
-<li>1167 올로르</li>
-<li>1172 다트리버</li>
-<li>1141 최코님</li>
-<li>1204 러빙웨이</li>
-<li>1219 스왑, Swab</li>
-<li>1221 포스후니</li>
-<li>1222 재킴, Jaekim</li>
-<li>1224 김떡락</li>
-<li>1227 디끄디끄</li>
-<li>1234 맛집ㅋ</li>
-<li>1242 다니율응</li>
-<li>1248 내가 S면 넌 나의 N이 되어줘</li>
-<li>1250 v12멜로디</li>
-<li>1251 웰컴레이블</li>
-<li>1252 김인호, K.I.H</li>
-<li>1257 최윤입니다</li>
-<li>1262 하이머딩거</li>
-<li>1267 [Uji]구르르</li>
-<li>1272 까스댄스댄스</li>
-<li>1277 만개화랑</li>
-<li>1319 극락왕생</li>
-<li>1333 주댕이이이</li>
-<li>1348 그녀가웃잖아</li>
-<li>1402 ☆Hwany☆</li>
-<li>1420 로즈마리€</li>
-<li>1425 많사월</li>
-<li>1428 스탠스</li>
-<li>1445 존나섹시캐</li>
-<li>1467 깨뭉</li>
-<li>1472 다니감지기</li>
-<li>1500 청담에테르노</li>
-<li>1524 BIONANO</li>
-<li>1542 도라이</li>
-<li>1555 라네트</li>
-<li>1648 플라워, Flower</li>
-<li>1669 앞니69</li>
-<li>1684 S. 퍼킹뱅어</li>
-<li>1696 골타69</li>
-<li>1697 피카츄69</li>
-<li>1777 다니기긔</li>
-<li>1825 S. 김인호, S. K.I.H</li>
-<li>1878 라이즈</li>
-<li>1892 짜이</li>
-<li>2000 VVIP</li>
-<li>2002 S. 텐프로, S. 10PRO</li>
-<li>2003 S. 자꾸박는룡이</li>
-<li>2006 S. 함지아아줌마</li>
-<li>2010 백호수호신</li>
-<li>2015 S. 슈퍼그랑죠</li>
-<li>2016 S. 파티마홀딩스</li>
-<li>2019 S. 흑우나그네</li>
-<li>2024 S. 도도로도</li>
-<li>2030 S. 한남동이순신</li>
-<li>2042 S.나비, S. NABI</li>
-<li>2045 S. 젤로#</li>
-<li>2047 S. 다니감지기</li>
-<li>2048 S. 카블라, S. cavlar</li>
-<li>2052 S. 시바이누coin</li>
-<li>2054 S. 잉며든로켓</li>
-<li>2066 구마유시</li>
-<li>2067 S. 땁3</li>
-<li>2069 도파민69</li>
-<li>2081 S. 페라리V12</li>
-<li>2087 S. 반조흐</li>
-<li>2094 S. 구르는다니</li>
-<li>2099 S. 99</li>
-<li>2111 S. 박아랏</li>
-<li>2112 S. 야부리맨</li>
-<li>2125 S. V12멜로디</li>
-<li>2222 2월2일2시2분</li>
-<li>2242 S. 다니율응</li>
-<li>2172 S. 도브네</li>
-<li>2272 S. 까스댄스댄스</li>
-<li>2333 S. 주댕이이이</li>
-<li>2345 S. 맛집</li>
-<li>2411 #오너, #oner</li>
-<li>2486 S. 이다인</li>
-<li>2542 이노레이블</li>
-<li>2666 #페이커, #faker</li>
-<li>2669 S. 앞니69</li>
-<li>2696 S. 골타69</li>
-<li>2697 S. 피카츄69</li>
-<li>2777 S. 티미</li>
-<li>2948 S. V12멜로디</li>
-<li>2951 S. Ready501</li>
-<li>2998 S. 최윤입니다</li>
-<li>2999 S. 라네트</li>
-<li>3000 MVP</li>
-<li>3024 S. 다니율응</li>
-<li>3069 69어셈블</li>
-<li>3112 S. 야부리맨</li>
-<li>10272 king is 까신</li>
-<li>11112 킹부리맨</li>
-<!-- ======================================================= -->
+<li>1000 프리댄스</li>
+<li>1001 섹시댄스</li>
+<li data-video="https://vod.sooplive.co.kr/player/180346975">1004 if you love me</li>
+<li data-video="https://vod.sooplive.co.kr/player/156219647/catch">1087 왠지</li>
+<li>1088 베이프</li>
+<li data-video="https://vod.sooplive.co.kr/player/161585439/catch">1095 솜사탕</li>
+<li>1100 인더클럽, In the club</li>
+<li data-video="https://vod.sooplive.co.kr/player/151084841">1111 에이, A</li>
+<li>1112 교통정리</li>
+<li data-video="https://vod.sooplive.co.kr/player/165115851">1118 이머전시</li>
+<li>1119 스모킹타임</li>
+<li data-video="https://vod.sooplive.co.kr/player/179977935/catch">1177 칭칭언니 귀여워</li>
+<li data-video="https://vod.sooplive.co.kr/player/150304643/catch">1211 호시탐탐</li>
+<li data-video="https://vod.sooplive.co.kr/player/162634083/catch">1212 바나나차차</li>
+<li data-video="https://vod.sooplive.co.kr/player/181663025/catch">1222 던던댄스</li>
+<li>1234 폼미쳤다</li>
+<li data-video="https://vod.sooplive.co.kr/player/184013575/catch">1242 오버드라이브</li>
+<li data-video="https://vod.sooplive.co.kr/player/165567683/catch">1249 이게 사랑이지</li>
+<li data-video="https://vod.sooplive.co.kr/player/147544921/catch">1252 벌룬인러브</li>
+<li data-video="https://vod.sooplive.co.kr/player/161298103/catch">1275 킥드럼베이스</li>
+<li data-video="https://vod.sooplive.co.kr/player/147279273/catch">1299 버터플라이</li>
+<li data-video="https://vod.sooplive.co.kr/player/151084837/catch">1300 외모체크</li>
+<li data-video="https://vod.sooplive.co.kr/player/149525429/catch">1302 제로투</li>
+<li data-video="https://vod.sooplive.co.kr/player/150304651/catch">1345 테디베어</li>
+<li data-video="https://vod.sooplive.co.kr/player/180346969/catch">1388 팬서비스</li>
+<li data-video="https://vod.sooplive.co.kr/player/162634079/catch">1402 아이러브유</li>
+<li>1414 식사ㄱㄱ</li>
+<li>1415 식사ㄴㄴ</li>
+<li data-video="https://vod.sooplive.co.kr/player/184262857/catch">1428 에프터 라이크, After Like</li>
+<li data-video="https://vod.sooplive.co.kr/player/179977937/catch">1444 카리나 닮았대</li>
+<li data-video="https://vod.sooplive.co.kr/player/158109447/catch">1464 빛을따라서</li>
+<li data-video="https://vod.sooplive.co.kr/player/185518999/catch">1472 모시모시</li>
+<li data-video="https://vod.sooplive.co.kr/player/183787265/catch">1474 롤러코스터</li>
+<li>1476 섹시푸드</li>
+<li data-video="https://vod.sooplive.co.kr/player/184262857/catch">1486 라이크유, Like you</li>
+<li data-video="https://vod.sooplive.co.kr/player/145858873/catch">1488 핑크레이디</li>
+<li data-video="https://vod.sooplive.co.kr/player/134389351/catch">1500 삐끼삐끼</li>
+<li data-video="https://vod.sooplive.co.kr/player/151185195/catch">1502 꽁냥이</li>
+<li data-video="https://vod.sooplive.co.kr/player/161820353/catch">1515 버블</li>
+<li data-video="https://vod.sooplive.co.kr/player/163842515/catch">1558 자기야 화풀어</li>
+<li data-video="https://vod.sooplive.co.kr/player/185084253/catch">1564 나랑 사귈래</li>
+<li data-video="https://vod.sooplive.co.kr/player/156644225/catch">1566 우유</li>
+<li data-video="https://vod.sooplive.co.kr/player/166385639/catch">1592 푸키, Pookie</li>
+<li data-video="https://vod.sooplive.co.kr/player/160385675">1600 핫, HOT</li>
+<li data-video="https://vod.sooplive.co.kr/player/141516497/catch">1610 홀업</li>
+<li data-video="https://vod.sooplive.co.kr/player/157519267/catch">1616 바니바니</li>
+<li data-video="https://vod.sooplive.co.kr/player/157519267/catch">1684 퍼킹뱅어</li>
+<li data-video="https://vod.sooplive.co.kr/player/148628615/catch">1700 포켓몬댄스</li>
+<li data-video="https://vod.sooplive.co.kr/player/141516497/catch">1725 니코니코니</li>
+<li data-video="https://vod.sooplive.co.kr/player/157658861/catch">1777 에티튜드, ATTITEDE</li>
+<li>1785 첫만남</li>
+<li>1787 킹받쥬</li>
+<li data-video="https://vod.sooplive.co.kr/player/179996063/catch">1804 무아</li>
+<li data-video="https://vod.sooplive.co.kr/player/163740323/catch">1805 나니가스키</li>
+<li>1810 핸즈업, Hands Up</li>
+<li data-video="https://vod.sooplive.co.kr/player/151084867/catch">1812 엘에스디, LSD</li>
+<li>1818 아봉풍</li>
+<li>1881 왓더뻑, WTF</li>
+<li>1888 스윙, swing</li>
+<li data-video="https://vod.sooplive.co.kr/player/151084845">1900 공주들아</li>
+<li data-video="https://vod.sooplive.co.kr/player/148770789/catch">1911 라피스</li>
+<li data-video="https://vod.sooplive.co.kr/player/151148133">1919 알려줄게</li>
+<li>1925 Give me more</li>
+<li data-video="https://vod.sooplive.co.kr/player/155592205/catch">1954 포켓로켓</li>
+<li>1969 야메떼구다사이</li>
+<li>1988 LOVE</li>
+<li data-video="https://vod.sooplive.co.kr/player/184013581/catch">1999 뛰어</li>
+<li data-video="https://vod.sooplive.co.kr/player/184013581/catch">2000 썸머</li>
+<li data-video="https://vod.sooplive.co.kr/player/148770793/catch">2001 암흑챌린지</li>
+<li>2002 헤비머신건</li>
+<li>2003 its that time</li>
+<li data-video="https://vod.sooplive.co.kr/player/184013585/catch">2004 도어</li>
+<li data-video="https://vod.sooplive.co.kr/player/165113769/catch">2006 묵찌빠</li>
+<li>2022 my oh my</li>
+<li>2025 EDM</li>
+<li data-video="https://vod.sooplive.co.kr/player/160855279/catch">2044 그래비티, gravity</li>
+<li data-video="https://vod.sooplive.co.kr/player/160385659">2050 호영레이블</li>
+<li data-video="https://vod.sooplive.co.kr/player/185518979/catch">2052 빌려온 고양이</li>
+<li>2055 소다팝, sodapop</li>
+<li>2088 붐붐베이스</li>
+<li>2095 이꾸요잇</li>
+<li data-video="https://vod.sooplive.co.kr/player/184885947/catch">2172 미국가있어</li>
+<li data-video="https://vod.sooplive.co.kr/player/156409141/catch">2182 간바레</li>
+<li>2190 아헤가오</li>
+<li data-video="https://vod.sooplive.co.kr/player/179996061/catch">2195 센세</li>
+<li data-video="https://vod.sooplive.co.kr/player/151192079/catch">2222 아파트, APT</li>
+<li data-video="https://vod.sooplive.co.kr/player/181362519/catch">2234 고민중독</li>
+<li data-video="https://vod.sooplive.co.kr/player/162835627/catch">2235 내이름맑음</li>
+<li>2240 i wonder</li>
+<li>2275 종소리</li>
+<li data-video="https://vod.sooplive.co.kr/player/180048439/catch">2345 라라리라라</li>
+<li>2424 이라이라</li>
+<li data-video="https://vod.sooplive.co.kr/player/155720275/catch">2425 너와의 모든 지금</li>
+<li data-video="https://vod.sooplive.co.kr/player/166253605/catch">2467 바우치</li>
+<li data-video="https://vod.sooplive.co.kr/player/179790431/catch">2525 밤을달리다</li>
+<li>2526 모또모또</li>
+<li data-video="https://vod.sooplive.co.kr/player/151701929">2555 목련개</li>
+<li data-video="https://vod.sooplive.co.kr/player/181663023/catch">2678 여름이었다</li>
+<li>2727 럽식, LOVE SICK</li>
+<li>2777 컴트루, comethru</li>
+<li>2842 팅커벨</li>
+<li data-video="https://vod.sooplive.co.kr/player/161820349/catch">2882 오빠바이러스</li>
+<li>2888 샤카부</li>
+<li>2999 유어바디</li>
+<li data-video="https://vod.sooplive.co.kr/player/160240359/catch">3000 살아있네</li>
+<li>3001 last night</li>
+<li data-video="https://vod.sooplive.co.kr/player/185518977/catch">3003 만찬가</li>
+<li data-video="https://vod.sooplive.co.kr/player/164529315/catch">3010 S.귀여워서 미안해</li>
+<li>3020 모찌송</li>
+<li data-video="https://vod.sooplive.co.kr/player/164205409/catch">3042 헨타이</li>
+<li data-video="https://vod.sooplive.co.kr/player/180794811/catch">3056 여우</li>
+<li>3111 캐쉬</li>
+<li data-video="https://vod.sooplive.co.kr/player/162634077/catch">3125 키세스</li>
+<li>3222 타이미</li>
+<li>3232 다이스키</li>
+<li data-video="https://vod.sooplive.co.kr/player/181362521/catch">3321 크루엘썸머, cruel summer</li>
+<li>3322 업, UP</li>
+<li data-video="https://vod.sooplive.co.kr/player/180911883/catch">3333 워터, water</li>
+<li>3434 비롱위드</li>
+<li>3636 타이미다운</li>
+<li data-video="https://vod.sooplive.co.kr/player/185518985/catch">3802 마녀배달부 키키</li>
+<li>3822 바이브레이트</li>
+<li>3888 체인리듬</li>
+<li data-video="https://vod.sooplive.co.kr/player/139105425/catch">4000 터미널</li>
+<li data-video="https://vod.sooplive.co.kr/player/148631709/catch">4040 호미들</li>
+<li>4042 헌더러</li>
+<li data-video="https://vod.sooplive.co.kr/player/161585445/catch">4082 렛츠고</li>
+<li data-video="https://vod.sooplive.co.kr/player/150647895/catch">4086 마티니</li>
+<li data-video="https://vod.sooplive.co.kr/player/162254173/catch">4242 나루토</li>
+<li data-video="https://vod.sooplive.co.kr/player/185755371/catch">4444 사기캐</li>
+<li data-video="https://vod.sooplive.co.kr/player/179790439/catch">4455 하트개</li>
+<li>4486 와이, Y</li>
+<li>4554 컨트롤</li>
+<li data-video="https://vod.sooplive.co.kr/player/185668685/catch">4888 S.탕후루</li>
+<li data-video="https://vod.sooplive.co.kr/player/181784603/catch">5000 한마디</li>
+<li>5002 테크노</li>
+<li data-video="https://vod.sooplive.co.kr/player/164269471/catch">5050- 여자단체댄스</li>
+<li>5151 드라군댄그</li>
+<li data-video="https://vod.sooplive.co.kr/player/184013579/catch">5252 계엄령</li>
+<li>5555 칙칙폭폭</li>
+<li>5577 촉촉착착</li>
+<li>5666 S. 유유</li>
+<li>6000 S. 핫해</li>
+<li>6070 함플단어셈블</li>
+<li data-video="https://vod.sooplive.co.kr/player/150451625/catch">6100 웨이백홈</li>
+<li data-video="https://vod.sooplive.co.kr/player/162600887">6125 이노센스</li>
+<li>6172 애플단 어셈블</li>
+<li>6174 청플단 어셈블</li>
+<li data-video="https://vod.sooplive.co.kr/player/181784601/catch">6222 월플단 어셈블</li>
+<li>6234 S. 고민중독</li>
+<li>6242 다플단 어셈블</li>
+<li>6272 꽃플단 어셈블</li>
+<li>6282 빈플단 어셈블</li>
+<li>6321 누플단 어셈블</li>
+<li>6402 S. 오늘만아이러브유</li>
+<li>6478 탱플단 어셈블</li>
+<li>6543 나이트댄서</li>
+<li>6666 로플단 어셈블</li>
+<li>6777 S. 컴트루,S. comethru</li>
+<li>6882 S. 오빠바이러스</li>
+<li>6969 쥬플단 어셈블</li>
+<li>7000 세븐</li>
+<li>7004 S. 무아</li>
+<li>7068 디스코테카</li>
+<li>7464 S. 러브쉐이크</li>
+<li data-video="https://vod.sooplive.co.kr/player/157519265/catch">7646 S. 어마어마해</li>
+<li>7777 오징어게임</li>
+<li data-video="https://vod.sooplive.co.kr/player/181362515/catch">7979 원라이프</li>
+<li data-video="https://vod.sooplive.co.kr/player/151185197/catch">8000 S. 팬서비스</li>
+<li data-video="https://www.youtube.com/watch?v=sOdBFDQBDmY">8333 에즈업, ass up</li>
+<li data-video="https://vod.sooplive.co.kr/player/155387707/catch">8877 하이스트</li>
+<li>8888 겟더파티</li>
+<li data-video="https://vod.sooplive.co.kr/player/158557365">9111 트월킹</li>
+<li>9222 carry you</li>
+<li data-video="https://vod.sooplive.co.kr/player/185146461/catch">10000 VIP</li>
+<li data-video="https://vod.sooplive.co.kr/player/183519063/catch">10001 텐프로, 10PRO</li>
+<li data-video="https://vod.sooplive.co.kr/player/152153573/catch">10002 cool쿨쿨</li>
+<li>10003 자꾸박는룡이</li>
+<li data-video="https://vod.sooplive.co.kr/player/179977927/catch">10004 지나가던똥개</li>
+<li>10005 백호수호신</li>
+<li>10006 파이널퀸즈</li>
+<li data-video="https://vod.sooplive.co.kr/player/183521491">10007 꽃욜로ゑ</li>
+<li data-video="https://vod.sooplive.co.kr/player/183798089/catch">10008 나도8</li>
+<li>10009 철구</li>
+<li>10010 에즈럽, AS LOVE</li>
+<li data-video="https://vod.sooplive.co.kr/player/138474059">10011 웬아이겟올드</li>
+<li data-video="https://www.youtube.com/watch?v=B0y8EBBcPlc">10015 슈퍼그랑죠</li>
+<li data-video="https://vod.sooplive.co.kr/player/185657851/catch">10016 파티마홀딩스</li>
+<li data-video="https://www.youtube.com/watch?v=9eRMotWJzko">10017 [ING]바쁨</li>
+<li>10018 상하이불주먹</li>
+<li data-video="https://vod.sooplive.co.kr/player/162835561/catch">10019 흑우나그네</li>
+<li>10020 무야이겅</li>
+<li data-video="https://vod.sooplive.co.kr/player/161386323/catch">10022 이즈</li>
+<li data-video="https://vod.sooplive.co.kr/player/183522405/catch">10024 도도로도</li>
+<li>10025 짭찌몬</li>
+<li>10026 [ING]우영</li>
+<li>10030 다키시메루마데</li>
+<li>10033 #토토충#</li>
+<li>10034 양치기물소</li>
+<li>10042 ☆Hwany☆</li>
+<li data-video="https://vod.sooplive.co.kr/player/183522269/catch">10043 나캉이</li>
+<li data-video="https://vod.sooplive.co.kr/player/185148091/catch">10045 젤로#</li>
+<li>10048 AGN샤프</li>
+<li data-video="https://vod.sooplive.co.kr/player/183798091/catch">10050 청아만의유턴</li>
+<li data-video="https://vod.sooplive.co.kr/player/160345615/catch">10051 월림자</li>
+<li data-video="https://vod.sooplive.co.kr/player/185657849/catch">10052 시바이누coin</li>
+<li data-video="https://vod.sooplive.co.kr/player/183796693/catch">10053 쮸은주</li>
+<li data-video="https://vod.sooplive.co.kr/player/183519061/catch">10054 잉며든로켓</li>
+<li data-video="https://www.youtube.com/watch?v=xdcym69DtL4">10055 깅더듬</li>
+<li data-video="https://www.youtube.com/watch?v=UpssTzoYRyw">10058 오하</li>
+<li data-video="https://vod.sooplive.co.kr/player/184191731/catch">10060 함지아아줌마</li>
+<li data-video="https://vod.sooplive.co.kr/player/165113787/catch">10066 신사동푸우</li>
+<li data-video="https://vod.sooplive.co.kr/player/180048435/catch">10067 땁3</li>
+<li>10068 오른팔</li>
+<li>10069 주암지</li>
+<li>10070 만지아</li>
+<li data-video="https://vod.sooplive.co.kr/player/144425755">10072 멍지인</li>
+<li>10074 주박이다아</li>
+<li>10075 한남동이순신</li>
+<li data-video="https://vod.sooplive.co.kr/player/184746737/catch">10076 콘치즈</li>
+<li data-video="https://vod.sooplive.co.kr/player/183523185/catch">10078 피카소, P.casso</li>
+<li data-video="https://vod.sooplive.co.kr/player/183521477/catch">10082 태민, taemin</li>
+<li>10086 a9886</li>
+<li>10088 #놀자</li>
+<li>10097 코인러형규</li>
+<li data-video="https://vod.sooplive.co.kr/player/183519065/catch">10099 99</li>
+<li data-video="https://www.youtube.com/watch?v=yVJMjQn1tFo">10100 팩트,pact</li>
+<li data-video="https://vod.sooplive.co.kr/player/184192045/catch">10112 뉴야부리맨</li>
+<li>10115 행인15</li>
+<li>10116 삔스</li>
+<li data-video="https://vod.sooplive.co.kr/player/180792143/catch">10117 도브네</li>
+<li data-video="https://vod.sooplive.co.kr/player/184190377/catch">10118 클럽</li>
+<li data-video="https://vod.sooplive.co.kr/player/150739051">10125 웰컴레이블</li>
+<li>10142 다플단포에버</li>
+<li data-video="https://vod.sooplive.co.kr/player/185073199">10158 오베R</li>
+<li>10167 올로르</li>
+<li>10172 다트리버</li>
+<li data-video="https://vod.sooplive.co.kr/player/185145587/catch">10219 스왑, SWAB</li>
+<li>10222 재킴, JAEKIM</li>
+<li>10224 김떡락</li>
+<li data-video="https://vod.sooplive.co.kr/player/184192461/catch">10227 디끄디끄</li>
+<li>10242 다니율응</li>
+<li>10252 Daffyduck</li>
+<li>10262 하이머딩거</li>
+<li>10267 [Uji]구르르</li>
+<li data-video="https://vod.sooplive.co.kr/player/181271475/catch">10272까스댄스댄스</li>
+<li data-video="https://vod.sooplive.co.kr/player/183796703/catch">10357 썸머지, Summer.G</li>
+<li>10402 인생은쮀스</li>
+<li>10420 로즈마리€</li>
+<li data-video="https://vod.sooplive.co.kr/player/183523589/catch">10425 나비, NABI</li>
+<li>10426 글로뤼맨유</li>
+<li data-video="https://vod.sooplive.co.kr/player/157803157/catch">10442 뉴라네트</li>
+<li data-video="https://vod.sooplive.co.kr/player/156430723/catch">10444 존나사기캐</li>
+<li>10467 깨뭉</li>
+<li data-video="https://vod.sooplive.co.kr/player/183523591">10472 다니감지기</li>
+<li data-video="https://vod.sooplive.co.kr/player/152008803">10484 카블라, cavlar</li>
+<li>10524 바이오나노</li>
+<li>10542 도라이</li>
+<li>10620 엠비셔스, mbtious</li>
+<li>10675 출항</li>
+<li data-video="https://vod.sooplive.co.kr/player/160737513">10684 S. 퍼킹뱅어</li>
+<li data-video="https://vod.sooplive.co.kr/player/179987975/catch">10760 스페셜퀸</li>
+<li data-video="https://vod.sooplive.co.kr/player/183521493/catch">10775 귀멸의칼날</li>
+<li>10777 다니기긔</li>
+<li data-video="https://vod.sooplive.co.kr/player/179987987/catch">10782 쥬베이</li>
+<li data-video="https://vod.sooplive.co.kr/player/164269465/catch">10799 칠둘기07</li>
+<li>10801 슈라</li>
+<li data-video="https://vod.sooplive.co.kr/player/160696989">10812 페라리v12</li>
+<li data-video="https://vod.sooplive.co.kr/player/161114217/catch">10875 반조흐</li>
+<li>10878 라이즈, RISE</li>
+<li>10892 짜이</li>
+<li>10917 다니만의스윗</li>
+<li>10942 구르는다니</li>
+<li data-video="https://vod.sooplive.co.kr/player/183522179/catch">10975 초월</li>
+<li data-video="https://vod.sooplive.co.kr/player/185145857/catch">10982 웃어넘기기엔 너무 사랑했던 너라</li>
+<li>11025 라잇업, LIGHT IT UP</li>
+<li>11072 1995</li>
+<li data-video="https://www.youtube.com/watch?v=7MhOTEcN99Y">11110 다니상수</li>
+<li data-video="https://vod.sooplive.co.kr/player/183520509/catch">11111 박아랏</li>
+<li>11112 야부리맨</li>
+<li data-video="https://vod.sooplive.co.kr/player/157343095">11223 중복확인</li>
+<li>11272 꽃부기앙!</li>
+<li>11415 최코님</li>
+<li data-video="https://www.youtube.com/watch?v=PP7lFzoD_bw">12004 러빙웨이, 러빙Way</li>
+<li>12345 맛집ㅋ</li>
+<li>12404 많이사로아</li>
+<li>12423 많이사쥬우</li>
+<li data-video="https://vod.sooplive.co.kr/player/185647329/catch">12425 많이사이월</li>
+<li>12428 많이사이빈</li>
+<li>12442 많이사다니</li>
+<li>12450 많이사수힌</li>
+<li>12452 많이사영희</li>
+<li>12454 많이사보아</li>
+<li>12460 많이사유연</li>
+<li>12462 많이사애지니</li>
+<li data-video="https://vod.sooplive.co.kr/player/138472735">12464 많이사유나</li>
+<li>12470 많이사지아</li>
+<li>12472 많이사부기</li>
+<li>12474 많이사청아</li>
+<li>12475 많이사지안</li>
+<li>12478 많이사설탱</li>
+<li>12482 많이사애라</li>
+<li data-video="https://vod.sooplive.co.kr/player/162175945/catch">12486 내가 S면 넌 나의 N이 되어줘</li>
+<li>12492 많이사누리</li>
+<li data-video="https://vod.sooplive.co.kr/player/162254105/catch">12520 v12멜로디</li>
+<li data-video="https://vod.sooplive.co.kr/player/181911431/catch">12525 김인호, K.I.H</li>
+<li>12579 최윤입니다</li>
+<li>12777 만개화랑</li>
+<li data-video="https://vod.sooplive.co.kr/player/185145561/catch">13333 주댕이이이</li>
+<li>13486 그녀가 웃잖아</li>
+<li>14282 스탠스, STANCE</li>
+<li>15000 청담에테르노</li>
+<li data-video="https://vod.sooplive.co.kr/player/154255177">15555 라네트</li>
+<li data-video="https://vod.sooplive.co.kr/player/185146775/catch">16486 플라워, flower</li>
+<li data-video="https://vod.sooplive.co.kr/player/184745633/catch">16969 골타69</li>
+<li data-video="https://vod.sooplive.co.kr/player/152496273/catch">16974 피카츄69</li>
+<li>16977 앞니69</li>
+<li data-video="https://vod.sooplive.co.kr/player/152496273/catch">18125 S. 김인호, S. K.I.H</li>
+<li data-video="https://vod.sooplive.co.kr/player/150542347/catch">20000 VVIP</li>
+<li>20002 S. 텐프로, S. 10PRO</li>
+<li>20003 S. 자꾸박는룡이</li>
+<li>20005 S. 백호수호신</li>
+<li>20006 S. 함지아아줌마</li>
+<li>20015 S. 슈퍼그랑죠</li>
+<li>20016 S. 파티마홀딩스</li>
+<li data-video="https://vod.sooplive.co.kr/player/182265209">20019 S. 흑우나그네</li>
+<li data-video="https://vod.sooplive.co.kr/player/160801447">20024 S. 도도로도</li>
+<li data-video="https://vod.sooplive.co.kr/player/183519715/catch">20052 시바이누coin</li>
+<li>20054 S. 잉며든로켓</li>
+<li>20066 구마유시</li>
+<li data-video="https://www.youtube.com/watch?v=iVH04uHRSwM">20067 S. 땁3</li>
+<li data-video="https://vod.sooplive.co.kr/player/183799375/catch">20069 도파민69</li>
+<li data-video="https://vod.sooplive.co.kr/player/148923987/catch">20076 S. 콘치즈</li>
+<li data-video="https://vod.sooplive.co.kr/player/181271919/catch">20099 S. 99</li>
+<li>20242 S. 다니율응</li>
+<li>20272 S. 까스댄스댄스</li>
+<li data-video="https://vod.sooplive.co.kr/player/183520113/catch">20411 #오너, #oner</li>
+<li>20425 S. 나비</li>
+<li>20472 S. 다니감지기</li>
+<li data-video="https://www.youtube.com/watch?v=c1aHWsPo_mM">20484 S. 카블라</li>
+<li>20812 S. 페라리v12</li>
+<li>20875 S. 반조흐</li>
+<li data-video="https://www.youtube.com/watch?v=t2kMP1t3kbg">20942 S. 구르는다니</li>
+<li>21111 S. 박아랏</li>
+<li data-video="https://vod.sooplive.co.kr/player/158552891">21112 S. 야부리맨</li>
+<li data-video="https://vod.sooplive.co.kr/player/152748267">21252 S. V12멜로디</li>
+<li data-video="https://vod.sooplive.co.kr/player/180792141/catch">21725 S. 도브네</li>
+<li data-video="https://vod.sooplive.co.kr/player/164529313/catch">22222 2월2일2시2분</li>
+<li data-video="https://vod.sooplive.co.kr/player/183520925/catch">23333 S. 주댕이이이</li>
+<li>23456 S. 맛집</li>
+<li>25428 이노레이블</li>
+<li data-video="https://vod.sooplive.co.kr/player/149924407/catch">26666 #페이커, #faker</li>
+<li data-video="https://www.youtube.com/watch?v=WOI2vaYVpJY">26969 S. 피카츄69</li>
+<li>26974 S. 골타69</li>
+<li>26977 S. 앞니69</li>
+<li data-video="https://vod.sooplive.co.kr/player/166385635/catch">29486 S. v12멜로디</li>
+<li>29988 S. 최윤입니다</li>
+<li data-video="https://vod.sooplive.co.kr/player/156606855">29999 S. 라네트</li>
+<li data-video="https://vod.sooplive.co.kr/player/162381515">30000 MVP</li>
+<li>30069 69어셈블</li>
+<li>30242 S. 다니율응</li>
+<li data-video="https://vod.sooplive.co.kr/player/163207811/catch">31112 I AM 야부리맨</li>
+<li>35555 이터널킹라네트</li>
+<li>50000 50K</li>
+<li data-video="https://vod.sooplive.co.kr/player/160238329">100000 100K</li>
+<li>100272 king is 까신</li>
+<li data-video="https://www.youtube.com/watch?v=ssTBg1N82qk">111112 킹부리맨</li>
+<li>150000 150K</li>
+<li>200000 200K</li>
+<li data-video="https://vod.sooplive.co.kr/player/151447301">300000 300K</li>
 
 </ul>
+
 <script>
   // 검색 기능
   const searchInput = document.getElementById("search");
@@ -484,14 +482,13 @@
   });
 </script>
 
+<!-- ★ 추가된 부분: 중요 번호 자동 빨간색 -->
 <script>
 const hotNumbers = [
-992,1007,1017,1021,1022,1028,1034,1037,1045,1051,
-1052,1053,1056,1072,1075,1077,1078,1082,1086,1099,
-1221,1333,1425,2045,2052,2222,2172,2333,2411,2825
+6222, 10007, 10045, 10051, 10052, 10053, 10078, 10117, 100782, 12425, 13333, 20052, 20411, 21725, 22222, 23333
 ];
 
-document.querySelectorAll("li").forEach(li => {
+document.querySelectorAll("#list li").forEach(li => {
   const num = parseInt(li.innerText);
   if (hotNumbers.includes(num)) {
     li.classList.add("hot");
